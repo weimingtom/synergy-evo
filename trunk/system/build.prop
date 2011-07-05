@@ -1,5 +1,3 @@
-ro.config.ringtone=Windchimer.mp3
-ro.config.notification_sound=Little.mp3
 ro.com.google.clientidbase=android-sprint-us
 ro.com.google.clientidbase.yt=android-sprint-us
 ro.com.google.clientidbase.am=android-sprint-us
@@ -83,13 +81,15 @@ keyguard.no_require_sim=1
 #
 
 #RomManager - SynergyUpdater
-ro.rommanager.developerid=myn
-ro.modversion=Synergy_RLS1-Supersonic
+ro.rommanager.developerid=Virus
+ro.modversion=Synergy_RLS1-Kingdom
+
+persist.service.adb.enable = 1
 
 rild.libpath=/system/lib/libhtc_ril.so
 ro.ril.def.preferred.network = 4
 ro.telephony.default_network = 4
-
+net.tcp.buffersize.wimax = 4096,221184,524288,4096,16384,110208
 wifi.interface = eth0
 wifi.supplicant_scan_interval=90
 
@@ -125,6 +125,8 @@ settings.display.autobacklight=1
 # default value of brightness
 settings.display.brightness=143
 
+# For emmc phone storage
+ro.phone_storage = 1
 
 # This is a high density device with more memory, so larger vm heaps for it.
 # Change to 32m, due to 2.3.3 GB already change to 32m
@@ -156,7 +158,6 @@ ro.media.enc.vid.h264.height    = 144,480
 ro.media.enc.vid.h264.bps       = 64000,6000000
 ro.media.enc.vid.h264.fps       = 1,30
 
-
 # 
 # Increase SKIA decode memory capability for progressive jpg file
 #
@@ -168,7 +169,6 @@ ro.bt.stack	= Broadcom BTL-A
 ro.bt.stack.version	= 2.0.50.032
 #0x10000010010100100000011 represent bt profile list
 ro.bt.profiles	= 4270339
-
 
 # Properties of BTLA stack
 service.brcm.bt.activation = 0
@@ -198,6 +198,11 @@ ro.com.google.clientidbase.gmm = android-sprint-us
 #Modify MTU from 1500 to 1472 on 3G network
 ro.ril.set.mtu1472 = 1
 
+# Make cdma voicemail the default voicemail number.
+ro.cdma.voicemail.number = mine
+
+mobiledata.interfaces=rmnet0,gprs,wimax0
+
 # For FOTA setting (leave empty value to use default)
 ro.htc.checkin.url = http://andchin.htc.com/android/checkin
 ro.htc.checkin.crashurl = http://andchin.htc.com/android/crash
@@ -223,6 +228,10 @@ keydispatchtimeout = 15000
 
 # Property of Watchdog timeout value
 watchdogtimeout = 120000
+# For quick boot mode
+persist.sys.shutdown.mode = hibernate
+# For opensense sdk
+ro.htc.common.version = 2.1.0.0
 
 #
 # ADDITIONAL_BUILD_PROPERTIES
@@ -231,7 +240,6 @@ ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html
 ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html
 ro.com.google.networklocation=1
 ro.setupwizard.mode=DISABLED
-ro.setupwizard.mode=OPTIONAL
 ro.config.ringtone=VR2.mp3
 ro.config.notification_sound=Procyon.ogg
 ro.config.alarm_alert=Good_Morning.ogg
@@ -240,6 +248,7 @@ ro.config.msg_notification=Polaris.ogg
 ro.setupwizard.mode=DISABLED
 ro.com.google.gmsversion=2.3_r3
 media.a1026.nsForVoiceRec=0
+media.a1026.enableA1026=1
 htc.audio.alt.enable=1
 htc.audio.hac.enable=1
 ro.media.enc.hprof.file.format=mp4
@@ -290,8 +299,9 @@ ro.media.enc.jpeg.quality=95,85,70
 ro.setupwizard.enterprise_mode=1
 ro.media.codec_priority_for_thumb=so
 net.bt.name=Android
+dalvik.vm.dexopt-flags=m=y
+dalvik.vm.lockprof.threshold=500
 dalvik.vm.stack-trace-file=/data/anr/traces.txt
-
 ring.delay=0
 ro.telephony.call_ring.delay=0
 windowsmgr.max_events_per_sec=100

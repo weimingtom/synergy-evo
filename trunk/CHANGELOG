@@ -1,0 +1,96 @@
+=== Synergy RLS 1 ChangeLog ===
+# Based on Speedy_S_Sprint_WWE_2.72.651.2 Leak thanks 911 Sniper
+# Added PureBlack theme (Thanks Krysick)
+# Added green overflow scroll (Thanks Robocik)
+# Raised available MMS size Limit to 5mb (Default is still 2mb) 
+# Added Synergy Updater app, allowing in rom updates (Addons and Themes)
+# Added DSP Manager
+# Added Google Talk with Video support
+# Added support for ## Programming Codes (ex ##775#) 
+# Added 1% battery increments and animated sync (Thanks Virus)
+# Added Tweak to increase sdcard read ahead buffer (Thanks Calk)
+# Added Custom HTC Wallpapers (Thanks Virus)
+# Added CRT display off/on animations
+# Optimized and Re-Engineered All Apks (Thanks WoZZeR999)
+# Added CRT TV shutdown animation
+# Added BusyBox v1.18.4 with color output disabled
+# Added CyanogenMOD A2sd Scripts Modified by Virus and Robocik
+# Custom Notification sounds (Thanks Virus)
+# Rosie settings with right button remap (Thanks MYN)
+# New bootscreen (Thanks zhp pilot)
+# Added Screen Scaling and systl.conf tweaks (Thanks Ziggy471)
+# Build Prop tweaks for faster screen transitions and call connect (Thanks CapyChimp)
+# Framework and Rosie transition times sped up (Thanks Calk and Aamikam for the Logic)
+# Added Dancing droid to incoming call screen (Thanks SEO)
+# Added Sense 3.0 Lockscreen from HTC kingdom build 
+# Fixed Nonshowing icons in lockscreen (Thanks SNQ)
+# Added 3.0 threaded text messaging (Thanks SEO)
+# Added 3.0 Weather (Thanks SEO and Damo)
+# Added HTC hub 
+# Added mod that propertly displays 3G/1X status in titlebar
+# Fixed FC in weather (Thanks Virus)
+# Fixed FC in weather Widget when clicking (Thanks Virus)
+# Fixed auto brightness issue with new kernel from official ota gingerbread Kernel (Thanks Sprint)
+# Added Transparent like rosie just like in the kingdom rom (Thanks Virus and Snq)
+# Moved some data/app to system app to take more advantage of our system 
+# Better looking icons on lockscreen (Thanks Snq)
+# Sprint/Verizon Mobile Wifi Hotspot unlocked so it is now free :) (Thanks Leoisright)
+# Added Sense 3.0 MMS
+# Added HTC Mirror App support
+# Added Sense 3.0 USB Menu
+# Decreased Wifi Access point scans to save more battery
+# Added Wireless N support to Kernel
+# Added Sense 3.0 Task Manager
+# Added Sense 3.0 Polaris Office
+# Customized Sense homescreen layout
+# Added HTC Hub support (Huge thanks to aamikam)
+# Fixed Rosie/Sense randomly restarting
+# Window transitions speed up
+# Fixed force close when using effects in HTC Album.  (Huge thanks to aamikam)
+# Optimized Apks (Huge thanks to aamikam)
+# Updated supersonic build properties from official supersonic OTA build.prop
+# Added H264 native support
+# Fixed issue where Android Market wasn't showing all apps/games
+# Added Synergy bootanimation (Thanks to the King of bootanimations.. Wrx4memp)
+# Updated HTC_IME.apk with non arrows version 
+# Added New Dropdown Toggles to Incredible Version 
+# Updated Flash Player to 10.3.185.23
+# Added Landscape Rosie Support (Thanks TommyTomatoe)
+# Fixed Rosie to now have Kingdom transparent launcher while landscape and speed it up (0 level compression)
+# Reverted to previous revision of MMS
+# Reverted to previous revision of Mail which fixed Mail FC using POP3
+# Increased GPS Lock Performance (Thanks Ziggy471)
+# Added back Wireless Tether 2.0.7
+# Removed left over remnants of laputa
+# Fixed Mail not syncing when in 4G mode
+# Fixed SystemUI Toggle Force Close Message Issues on Incredible
+# Added Settings toggle in Display for Stock (AOSP) Lockscreen (Huge thanks to aamikam)
+# Added Settings toggles in Display for Screen On/Off (CRT) Animations (Huge thanks to aamikam)
+# Fixed EMMC Mount to Pc for Incredible Users (Thanks Newtoroot)
+# Fixed Connected Media Force Close
+# Added HTC Media Share (DLNA Server)
+# Fixed MMS sending over Wifi 
+# Fixed HTC News Widget force close when in landscape
+# Fixed Mail not syncing when in 4G mode
+# Fixed Verizon Apps Tab on Market {Thanks JoelZ9614}
+# Fixed data not working while roaming
+# Added unlimited tabs in Browser.apk {Thanks JoelZ9614}
+# Fixed Netflix
+# Rebased the bin/xbin/lib/etc files with the new evo ota (Thanks Virus)
+# Updated Voice Search
+# Changed Rosie Icon (right) Reflecting a More Accurate Representation O Its dynamic action.
+# Updated DSP Manager
+--------------------- RC 1 RELEASED ---------------------
+# Enabled wireless 802.11 N in kernel modules (supersonic)
+# Added Panoramic and HDR support to Camera (Thanks aamikam)
+# Fixed Google Auto App/Settings Restore
+# Made Incredible Version of Synergy Amon Ra Recovery Compatible
+
+-------------------------------------------------------------------------------
+
+
+=== Supersonic Specific RLS 1 ===
+
+=== Incredible Specific RLS 1 ===
+
+
